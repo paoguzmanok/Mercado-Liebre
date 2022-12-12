@@ -1,0 +1,55 @@
+body {
+  font-size: 12px;
+  font-family: "Roboto";
+}
+.pageHeader {
+  background-color: #eac926;
+}
+
+.burger-menu {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  width: 20px;
+  margin: auto;
+}
+
+.compras {
+  text-align: center;
+}
+.titulo-ultimavisita {
+  font-size: 24px;
+}
+.precio {
+  font-size: 18px;
+  font-family: "roboto";
+}
+.descuentos {
+  font-size: 16px;
+}
+.descripcion {
+  font-size: 16px;
+}
+.cuotas {
+  text-align: center;
+}
+.centerFooter {
+  text-align: center;
+  margin-top: 20px;
+}
+.p-footer {
+  margin-bottom: 20px;
+}
+
+.creditcard {
+  font: size 2em;
+  margin-bottom: 10px;
+}
+.arrow {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.shield {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
