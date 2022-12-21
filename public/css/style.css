@@ -1,9 +1,14 @@
 body {
   font-size: 12px;
   font-family: "Roboto";
+  background-color: #b6b2b2;
 }
 .pageHeader {
   background-color: #eac926;
+}
+.list {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .burger-menu {
@@ -13,11 +18,33 @@ body {
   width: 20px;
   margin: auto;
 }
+main {
+  margin: auto;
+  width: 90%;
+}
 
+.titulos {
+  text-align: center;
+}
+article {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.datosproductos {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 1px solid;
+  border-color: #ebebeb;
+}
+.imagen-Producto {
+  width: 100%;
+}
 .compras {
   text-align: center;
 }
-.titulo-ultimavisita {
+.titulos {
   font-size: 24px;
 }
 .precio {
@@ -26,6 +53,7 @@ body {
 }
 .descuentos {
   font-size: 16px;
+  color: #39b54a;
 }
 .descripcion {
   font-size: 16px;
@@ -41,9 +69,9 @@ body {
   margin-bottom: 20px;
 }
 
-.creditcard {
-  font: size 2em;
-  margin-bottom: 10px;
+.credit-card {
+  font-size: 2em;
+  margin-bottom: 10x;
 }
 .arrow {
   font-size: 2em;
@@ -52,4 +80,210 @@ body {
 .shield {
   font-size: 2em;
   margin-bottom: 10px;
+}
+.product-shadow {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.container-truck {
+  position: relative;
+}
+.container-truck i {
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  color: #09e251;
+  align-items: flex-end;
+}
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.p {
+  display: flex;
+}
+.precio {
+  flex-grow: 0.3;
+}
+.descuentos {
+  flex-grow: 0.7;
+}
+.header-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 50%;
+}
+.buscador {
+  width: 300px;
+  display: flex;
+}
+.input-buscador {
+  width: 250px;
+  height: 33px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+.productos {
+  width: 90%;
+}
+.compras-1 {
+  text-align: center;
+  margin-top: 15px;
+}
+.fa-search {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.form {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #eac926;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.perfil-usuario {
+  display: flex;
+}
+.perfil {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.intereses {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.fecha-nacimiento {
+  font-size: 16px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.comprador {
+  width: 50%;
+}
+.vendedor {
+  width: 50%;
+}
+.foto-p {
+  margin-top: 8px;
+}
+.input {
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.button {
+  display: flex;
+}
+.enviar:hover {
+  background-color: #09e251;
+}
+.reset:hover {
+  background-color: #09e251;
+}
+.enviar {
+  width: 50%;
+  color: white;
+  padding: 8px;
+  background-color: rgb(3, 112, 175);
+}
+.reset {
+  width: 50%;
+  color: rgb(94, 179, 248);
+  background-color: rgb(3, 112, 175);
+  color: white;
+}
+.login {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #eac926;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+.titulo-login {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.input-login {
+  width: 340px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.boton-enviar {
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 55px;
+  padding-left: 55px;
+  padding-right: 100px;
+  color: #fff;
+  background-color: rgb(145, 142, 142);
+  margin-right: 50%;
+  margin-left: 30%;
+  display: flex;
+}
+
+@media (min-width: 481px) {
+  /* tablet */
+  .productos {
+    width: 48%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* laptop */
+  .productos {
+    width: 23%;
+  }
+
+  .product-shadow {
+    box-shadow: none;
+  }
+
+  .description {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) {
+  /* desktop */
 }
