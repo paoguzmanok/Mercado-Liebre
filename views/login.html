@@ -51,14 +51,16 @@ rel="stylesheet" />
       
     </header>
     <main>
-        <form action="login" method="get" class="login">
+        <form action="/" method="get" class="login">
             <h1 class="titulo-login">Login</h1>
             <label for="usuario"></label>
             <input type="text" name="usuario" id="usuario" placeholder="Usuario" class="input-login">
             <label for="contraseña"></label>
             <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" class="input-login">
-             <a href="/" class="boton-enviar">Enviar</a>
-             
+             <button type="submit" class="boton-enviar">Enviar</button>
+             <div class="a-register">
+             <p>¿No tienes cuenta?</p> <a href="register"><p> Regístate</p></a>
+             </div>
         </form>
     </main>
     <footer>
