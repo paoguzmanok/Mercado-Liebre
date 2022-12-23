@@ -32,7 +32,7 @@ article {
   background-color: white;
 }
 
-.datosproductos {
+.datos-productos {
   padding-left: 15px;
   padding-right: 15px;
   border-top: 1px solid;
@@ -249,17 +249,14 @@ article {
 }
 
 .boton-enviar {
-  text-align: center;
-  border-radius: 5px;
-  text-decoration: none;
-  padding: 10px 55px;
-  padding-left: 55px;
-  padding-right: 100px;
-  color: #fff;
-  background-color: rgb(145, 142, 142);
-  margin-right: 50%;
-  margin-left: 30%;
+  width: 100%;
+  padding: 8px;
+}
+.a-register {
   display: flex;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
 }
 
 @media (min-width: 481px) {
@@ -274,16 +271,46 @@ article {
   .productos {
     width: 23%;
   }
-
+  .productos:hover .descripcion {
+    display: block;
+  }
   .product-shadow {
     box-shadow: none;
   }
-
-  .description {
-    display: none;
+  .container-truck i:hover {
+    transform: rotate(250deg);
   }
+  .boton-enviar:hover {
+    background-color: #0022aa;
+  }
+}
+.product-shadow:hover {
+  box-shadow: 0px 0px 20px rgb(110, 100, 100);
+}
+
+.descripcion {
+  display: none;
 }
 
 @media (min-width: 1281px) {
-  /* desktop */
+  .centerFooter {
+    display: flex;
+    justify-content: space-between;
+
+    /* desktop */
+  }
+  .footer-credit {
+    width: 33%;
+    margin-left: 10px;
+  }
+  .footer-arrow {
+    width: 33%;
+  }
+  .footer-shield {
+    width: 33%;
+  }
+  .copy {
+    font-size: 8px;
+    margin-top: 0px;
+  }
 }
