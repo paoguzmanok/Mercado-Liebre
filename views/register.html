@@ -23,14 +23,18 @@ rel="stylesheet" />
      <header class="pageHeader">
       <div class="header-header">
       <img src="./images/logo-mercado-liebre.svg" class="logo" />
-   <input type="text" name="buscador" required placeholder="Buscar, productos, marcas" class="buscador">
 
-  <button><i class="fas fa-search"></i></button>
+      <form action="/" method="get" class="buscador" >
+        <label for="buscador"></label>
+   <input type="text" name="buscador" id="buscador" placeholder="Buscar, productos, marcas" class="input-buscador">
+
+  <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
       <p class="compras">
         </div>
         <div class="compras-1">
-       <i class="fas fa-hand-holding-usd" ></i>Comprá en cuotas y sin
-        tarjeta de crédito</p>
+       <h2><i class="fas fa-hand-holding-usd" ></i>Comprá en cuotas y sin tarjeta de credito</h2>
+        
         </div>
      
       <nav>
@@ -101,8 +105,9 @@ rel="stylesheet" />
                  </div>
         </form>
     </main>
-    <footer>
+   <footer class="footer">
       <section class="centerFooter">
+        <div class="footer-credit">
         <div class="credit-card">
         <i class="far fa-credit-card"></i>
         </div>
@@ -111,6 +116,8 @@ rel="stylesheet" />
         Con Mercado Liebre Cash, tenés cuotas sin interés con tarjet o en
         efectivo en puntos de pago.¡Y siempre es seguro!
       </p>
+        </div>
+        <div class="footer-arrow">
       <div class="arrow">
    <i class="fas fa-sign-in-alt"></i>
       </div>
@@ -119,6 +126,8 @@ rel="stylesheet" />
         solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles
         de productos. Es un beneficio de Mercado Puntos.
       </p>
+        </div>
+        <div class="footer-shield">
       <div class="shield">
      <i class="fas fa-user-shield"></i>
       </div>
@@ -128,11 +137,12 @@ rel="stylesheet" />
         ¡No te gusta? ¡Devolvelo!. En Mercado Liebre, no hay nada que no puedas
         hacer, porque estás sieempre protegid@
       </p>
-      <h2><strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong></h2>
+        </div>
+        
       </section>
+      <div class="copy">
+      <h2><strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong></h2>
+        </div>
     </footer>
   </body>
-</html>
-
-</body>
 </html>
