@@ -5,10 +5,25 @@ body {
 }
 .pageHeader {
   background-color: #eac926;
+  padding: 10px;
+  width: 100%;
+}
+.header-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-header-w100 {
+  width: 100%;
+
+  text-align: center;
 }
 .list {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+.nav-list {
+  display: none;
 }
 
 .burger-menu {
@@ -18,7 +33,7 @@ body {
   width: 20px;
   margin: auto;
 }
-main {
+.main-width {
   margin: auto;
   width: 90%;
 }
@@ -35,8 +50,7 @@ article {
 .datos-productos {
   padding-left: 15px;
   padding-right: 15px;
-  border-top: 1px solid;
-  border-color: #ebebeb;
+  border-top: 1px solid #ebebeb;
 }
 .imagen-Producto {
   width: 100%;
@@ -105,9 +119,10 @@ article {
 .display-flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 1%;
+  justify-content: center;
 }
-.p {
+.precios-descuentos {
   display: flex;
 }
 .precio {
@@ -116,42 +131,37 @@ article {
 .descuentos {
   flex-grow: 0.7;
 }
-.header-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
 
 .logo {
   width: 50%;
 }
-.buscador {
-  width: 300px;
-  display: flex;
-}
-.input-buscador {
-  width: 250px;
-  height: 33px;
-  font-size: 16px;
-  border: none;
-  background-color: white;
-  border-radius: 5px;
-  flex-grow: 1;
-}
+
 .productos {
   width: 90%;
 }
-.compras-1 {
-  text-align: center;
-  margin-top: 15px;
-}
-.fa-search {
+.buscador {
+  width: 48%;
+  margin-left: 5px;
+  align-self: center;
+  display: flex;
   background-color: white;
-  padding: 8px;
   border-radius: 5px;
+}
+.input-buscador {
+  height: 33px;
+  font-size: 16px;
   border: none;
+  border-radius: 5px;
+  margin-right: 2px;
+  flex-grow: 1;
+  min-width: 0;
+  outline: none;
+}
+.button-search {
+  background-color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
 }
 .form {
   margin: 0 auto;
@@ -229,6 +239,7 @@ article {
 .login {
   margin: 0 auto;
   width: 400px;
+  height: 400px;
   background-color: #eac926;
   padding: 30px;
   margin-top: 100px;
@@ -245,18 +256,21 @@ article {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  margin-top: 20px;
   color: grey;
 }
 
 .boton-enviar {
   width: 100%;
   padding: 8px;
+  margin-top: 10px;
 }
 .a-register {
   display: flex;
   text-align: center;
   font-size: 15px;
   padding-top: 5px;
+  margin-top: 10px;
 }
 
 @media (min-width: 481px) {
@@ -291,26 +305,25 @@ article {
 .descripcion {
   display: none;
 }
+.centerFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-credit {
+  width: 33%;
+  margin-left: 10px;
+}
+.footer-arrow {
+  width: 33%;
+}
+.footer-shield {
+  width: 33%;
+}
+.copy {
+  font-size: 8px;
+  margin-top: 0px;
+}
 
 @media (min-width: 1281px) {
-  .centerFooter {
-    display: flex;
-    justify-content: space-between;
-
-    /* desktop */
-  }
-  .footer-credit {
-    width: 33%;
-    margin-left: 10px;
-  }
-  .footer-arrow {
-    width: 33%;
-  }
-  .footer-shield {
-    width: 33%;
-  }
-  .copy {
-    font-size: 8px;
-    margin-top: 0px;
-  }
+  /* desktop */
 }
