@@ -271,25 +271,22 @@ body {
     width: 39%;
     margin: auto;
   }
-
   .nav-list {
     display: flex;
-    padding-top: 10px;
-    padding-bottom: 0px;
     justify-content: space-between;
   }
 
-  .nav-list-1 {
+  .nav-menu {
     display: flex;
+    padding: 0px 0px;
   }
-  .nav-list-2 {
-    display: flex;
+  .nav-link {
+    margin: 0px 5px;
   }
 
   nav ul li a {
     text-decoration: none;
     color: #666;
-    padding: 10px;
   }
 
   .burger-menu {
