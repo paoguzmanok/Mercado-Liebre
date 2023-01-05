@@ -81,18 +81,14 @@ body {
   text-align: center;
 }
 .full-Footer {
-  background-color: white;
   text-align: center;
   margin-top: 20px;
-}
-.p-footer {
-  margin-bottom: 20px;
 }
 
 .footer i {
   color: #03264c;
   font-size: 2em;
-  margin-bottom: 10x;
+  margin-bottom: 10xp;
 }
 
 .product-shadow {
@@ -272,6 +268,22 @@ body {
     width: 30%;
     margin-left: 45px;
   }
+  .container-truck {
+    position: relative;
+  }
+  .container-truck i {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: -32px;
+    margin-top: -10px;
+    color: #39b54a;
+  }
   .title-header {
     width: 30%;
     margin: auto;
@@ -303,7 +315,6 @@ body {
     width: 48%;
   }
   .full-Footer {
-    background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -319,9 +330,11 @@ body {
     width: 2em;
     border: #39b54a 2px;
   }
+
   .footer-copyr {
     width: 100%;
-    margin: 0;
+    margin-top: 10px;
+
     text-align: start;
   }
 }
@@ -335,6 +348,7 @@ body {
   .product-shadow {
     box-shadow: none;
   }
+
   .container-truck i:hover {
     transform: rotate(250deg);
   }
